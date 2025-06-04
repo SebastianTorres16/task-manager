@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestión de Tareas</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Gestión de Tareas</h1>
+        <form id="task-form">
+            <input type="text" id="title" placeholder="Título" required />
+            <textarea id="description" placeholder="Descripción"></textarea>
+            <button type="submit">Agregar Tarea</button>
+        </form>
+        <div class="filters">
+            <button data-filter="all">Todas</button>
+            <button data-filter="pending">Pendientes</button>
+            <button data-filter="completed">Completadas</button>
+        </div>
+        <ul id="task-list"></ul>
+    </div>
+    <script src="model.js"></script>
+    <script src="view.js"></script>
+    <script src="controller.js"></script>
+</body>
+
+</html>
