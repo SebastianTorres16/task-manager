@@ -27,7 +27,6 @@ Puedes consultar la documentación completa del proyecto, incluyendo las histori
 - **Arquitectura:** MVC (Modelo - Vista - Controlador)
 - **Gestión de versiones:** Git + Git Flow
 - **Editor recomendado:** Visual Studio Code
-- **Herramientas adicionales:** ESLint, npm
 
 ## 📦 Estructura del Proyecto
 ```
